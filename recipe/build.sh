@@ -6,7 +6,7 @@ cargo auditable install --locked --root ${PREFIX} --path .
 
 # Install man page
 mkdir -p "${PREFIX}/share/man/man1"
-install -m 644 docs/taskwarrior-tui.1 "${PREFIX}/share/man/man1/"
+install -m 644 packaging/man/taskwarrior-tui.1 "${PREFIX}/share/man/man1/"
 
 # Install shell completions
 mkdir -p "${PREFIX}/share/bash-completion/completions"

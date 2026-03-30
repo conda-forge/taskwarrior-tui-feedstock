@@ -1,5 +1,5 @@
 context:
-  version: "0.26.7"
+  version: "0.26.8"
 
 package:
   name: taskwarrior-tui
@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://github.com/kdheepak/taskwarrior-tui/archive/refs/tags/v${{ version }}.tar.gz
-  sha256: d0bf2b9c5563165565db7941c7806f58c1c54f8bcb5f8d1430b0d35f1da7678d
+  sha256: fb75c8c88141d49db25d4bab62f78efdf8087a76ae9d2f0cdd06ec22e2ea7ea0
 
 build:
-  number: 1
+  number: 0
   skip:
     # Support windows in the future when Taskwarrior supports windows
     - win
