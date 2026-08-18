@@ -10,7 +10,7 @@ source:
   sha256: e4f5d10428dc1917b6084b5b0ed502ffe691cb14908cedd04ffff3940f9ffceb
 
 build:
-  number: 0
+  number: 1
   skip:
     # Support windows in the future when Taskwarrior supports windows
     - win
